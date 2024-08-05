@@ -1,0 +1,90 @@
+.pricing-container {
+    margin: 3rem;
+}
+
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    box-shadow: rgba(65,105,225,0.5) 0px 2px 8px;
+    border-bottom: 3px solid var(--building-dreams-red);
+    padding: 2rem;
+    background-color: white;
+    height: 100%;
+}
+
+.pricing-header {
+    font-family: Cousine;
+    font-size: 2.75rem;
+    text-align: center;
+}
+
+.pricing-subheader {
+    font-family: Cousine;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.plan-title {
+    font-family: Cousine;
+    font-size: 2rem;
+}
+
+.plan-subtitle {
+    font-family: Cousine;
+    font-size: 1rem;
+}
+
+.plan-price {
+    font-family: Cousine;
+    font-size: 3rem;
+}
+
+.plan-includes {
+    font-family: Cousine;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.plan-feature {
+    font-family: Cousine;
+    font-size: 1rem;
+    margin-left: .25rem;
+}
+
+.plans-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .pricing-container {
+        margin: 1rem;
+    }
+
+    .pricing-header {
+        width: 100%;
+        text-align: center;
+        font-family: Cousine;
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .pricing-subheader {
+        font-family: Cousine;
+        font-size: 1rem;
+    }
+
+    .plan-container {
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .plans-container {
+        flex-direction: column;
+    }
+}

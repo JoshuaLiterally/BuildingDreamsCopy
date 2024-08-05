@@ -1,0 +1,89 @@
+.home-nav-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.home-nav-buttons button {
+    width: 8rem;
+    border: 0;
+    border-radius: 0;
+    color: black;
+    background-color: white;
+    font-family: "Cousine", monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 1rem;
+    
+}
+
+.home-nav-buttons button:hover {
+    background-color: rgb(216, 216, 216);
+    
+}
+
+.home-nav-buttons :first-child {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom: var(--building-dreams-red) 3px solid;
+    border-left: var(--building-dreams-red) 3px solid;
+}
+
+.home-nav-buttons :last-child {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom: var(--building-dreams-red) 3px solid;
+    border-right: var(--building-dreams-red) 3px solid;
+}
+
+.hero-container {
+    margin-top: 6rem;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-blurp-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.home-blurp-title {
+    margin: 0;
+    font-family: Cousine;
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+}
+
+.home-blurp {
+    width: 80%;
+    font-family: Cousine;
+    font-size: 1.125rem;
+    color: white;
+    line-height: 2rem;
+    word-spacing: 70%;
+}
+
+#start-button {
+    color: white;
+    font-family: Cousine;
+    font-size: 1rem;
+    background-color: #4e15be;
+    padding: 1rem;
+}
+
+#start-button:hover {
+    background-color: #391385;
+}
+
+.hero-image {
+    height: 500px;
+}

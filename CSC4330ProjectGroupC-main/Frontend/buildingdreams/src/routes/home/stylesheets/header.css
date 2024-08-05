@@ -1,0 +1,93 @@
+/* Style for the header container */
+header {
+    background-color: hsl(225, 73%, 98%);
+    color: black;
+    padding: 1.5rem 0; /* Padding around the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.logo {
+    color: var(--building-dreams-red);
+    font-family: Cousine;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 2rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(213, 108, 22); /* Text color for links */
+    font-weight: bold;
+    font-family: Cousine;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: var(--building-dreams-red); /* Text color for links */
+}
+
+#user-actions {
+    margin-right: 2rem;
+}
+
+/* Style for the sign-in and login buttons */
+#user-actions :nth-child(n) {
+    background-color: var(--building-dreams-red);
+    color: #fff;
+    border: none;
+    padding: 1rem 1.5rem;
+    margin: .5rem;
+    font-family: Cousine;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style for the log in button */
+#user-actions :nth-child(1) {
+    color: black; /* Change the background color on hover */
+}
+
+/* Hover effect for log in button */
+#user-actions :nth-child(1):hover {
+    color: var(--building-dreams-red); /* Change the background color on hover */
+    cursor: pointer;
+}
+
+/* Hover effect for sign up button */
+#user-actions :nth-child(2):hover {
+    background-color: #741a1a; /* Change the background color on hover */
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    nav.sub-links {
+        display: none;
+    }
+
+    #user-actions {
+        display: none;
+    }
+
+    .burger-container {
+        display: flex;
+    }
+}
+
+/* Adjust the padding, margins, colors, and other styles to match your website's design. */

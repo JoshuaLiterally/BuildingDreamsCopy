@@ -1,0 +1,19 @@
+.editor-searchbar {
+    height: 1rem;
+    width: 80%;
+    padding: 1rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    margin-top: 1rem;
+    background-color: #EEEEEE;
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    border-bottom: 3px var(--building-dreams-red) solid;
+    overflow-y: scroll;
+}
+
+.editor-searchbar::placeholder {
+    color: #787878;
+}

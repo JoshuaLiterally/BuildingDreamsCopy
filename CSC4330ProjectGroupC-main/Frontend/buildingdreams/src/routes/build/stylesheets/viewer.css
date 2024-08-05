@@ -1,0 +1,48 @@
+p, h4 {
+    margin: 0;
+}
+
+.viewcanvas {
+    width: 60%;
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF7F5;
+    padding-top: 1.5rem;
+    gap: 1rem;
+    overflow-y: hidden;
+}
+
+.viewer-part-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #410b02;
+    height: max-content;
+    padding: .5rem;
+}
+
+.viewer-part-type {
+    font-family: "Cousine", monospace;
+    font-size: 1rem;
+    text-align: left;
+    color: #ffffff;
+}
+
+.viewer-part-name {
+    font-family: "Cousine", monospace;
+    font-size: 1rem;
+    text-align: left;
+    color: #ffffff;
+}
+
+.viewer-part-button:hover {
+    cursor: pointer;
+}
+
+.partcontainer:hover {
+    transform: scale(1.05);
+}

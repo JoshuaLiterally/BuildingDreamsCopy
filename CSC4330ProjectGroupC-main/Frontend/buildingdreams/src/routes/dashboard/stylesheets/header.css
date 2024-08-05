@@ -1,0 +1,48 @@
+.dashboard-header {
+    height: 2dvh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--building-dreams-red);
+}
+
+.dashboard-header h1 {
+    color: black;
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 2rem;
+    position: absolute;
+    left: 50%;
+}
+
+.dashboard-header h2 {
+    color: black;
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+.dashboard-logo {
+    width: 30%;
+    color: var(--building-dreams-red);
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+#hide {
+    position: absolute;
+    opacity: 0;
+    z-index: -100;
+    white-space: pre;
+}

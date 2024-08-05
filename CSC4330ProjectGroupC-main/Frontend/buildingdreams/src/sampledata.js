@@ -1,0 +1,3 @@
+export const CPUS = [
+    {"name":"AMD Ryzen 7 7800X3D","price":369,"core_count":8,"core_clock":4.2,"boost_clock":5,"tdp":120,"graphics":"Radeon","smt":true},{"name":"AMD Ryzen 5 7600X","price":224,"core_count":6,"core_clock":4.7,"boost_clock":5.3,"tdp":105,"graphics":"Radeon","smt":true},{"name":"AMD Ryzen 5 5600X","price":154.15,"core_count":6,"core_clock":3.7,"boost_clock":4.6,"tdp":65,"graphics":null,"smt":true},{"name":"Intel Core i9-14900K","price":544.99,"core_count":24,"core_clock":3.2,"boost_clock":6,"tdp":125,"graphics":"Intel UHD Graphics 770","smt":true}
+]

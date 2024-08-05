@@ -1,0 +1,45 @@
+.partcontainer {
+  display: inline-block;
+  align-items: start;
+  justify-content: start;
+  padding: 1px;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  background-color: #410b02;
+  margin: 10px;
+  height: 175px;
+  width: 206px;
+}
+
+.partcontainer h4 {
+  font-family: "Cousine", monospace;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.partcontainer p {
+  font-family: "Cousine", monospace;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.partcontainer img {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+.partcontainer:hover {
+  /* Scale the element up slightly when hovered */
+  transform: scale(1.05);
+}

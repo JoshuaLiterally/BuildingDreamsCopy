@@ -1,0 +1,48 @@
+.pc-part-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border: 1px var(--building-dreams-red) solid;
+    border-bottom: 3px var(--building-dreams-red) solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 50px;
+}
+
+.pc-part-container:hover {
+    cursor: pointer;
+}
+
+.pc-part-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.pc-part-name {
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.pc-part-price {
+    font-family: "Cousine", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.pc-part-add {
+    align-self: flex-start;
+}
+
+.pc-part-add:hover {
+    cursor: pointer;
+}

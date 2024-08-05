@@ -1,0 +1,185 @@
+.signup-container {
+    width: 100vw; 
+    height: 100vh;
+    display: flex; 
+    flex-direction: row;
+}
+
+.signup-container .features-container {
+    height: 100%;
+    width: 35%;
+    display: flex; 
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container .features-container .features-box {
+    width: 75%;
+    display: flex; 
+    flex-direction: column; 
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: rgba(229, 14, 14, 0.35) 0px 1px 4px;
+    gap: 1rem;
+}
+
+.signup-container .features-container .features-box h2 {
+    font-family: Cousine;
+    margin-bottom: .25rem;
+}
+
+.signup-container .form-container {
+    width: 65%;
+    display: flex; 
+    flex-direction: column; 
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+    padding: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.signup-container .logo {
+    color: var(--building-dreams-red);
+    font-family: Cousine;
+    font-weight: 700;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.signup-container .form-container h1 {
+    font-family: Cousine;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+/* CSS for the input + label container */
+.signup-container .form-container .input-container {
+    margin: 1rem;
+    width: 50%;
+}
+
+/* CSS for the label */
+.signup-container .form-container .input-container label {
+    display: block;
+    font-family: Cousine;
+}
+
+/* CSS for the text input */
+.signup-container .form-container .input-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204); /* Add a transparent bottom border */
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    font-family: Cousine;
+}
+
+.signup-container .form-container .input-container input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px solid var(--building-dreams-red); /* Change the bottom border color on focus */
+}
+
+/* Style the hyperlinks within the agreement */
+.signup-container .form-container > label a {
+    color: var(--building-dreams-red);
+}
+
+.create-account-button {
+    background-color: var(--building-dreams-red);
+    color: #fff;
+    border: none;
+    border-radius: 0; /* Remove border radius */
+    padding: 15px 20px;
+    cursor: pointer;
+    font-family: Cousine;
+    margin: 1rem;
+}
+
+.create-account-button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.mobile-install-prompt {
+    display: none;
+}
+
+#acceptTerms {
+    padding: .5rem;
+    margin-right: .5rem;
+}
+
+#business-address-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204); /* Add a transparent bottom border */
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    font-family: Cousine;
+}
+
+#business-address-input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--building-dreams-red);
+}
+
+@media only screen and (max-width: 780px) {  
+
+    .signup-container {
+        height: auto;
+    }
+      
+    .signup-container .features-container {
+        display: none;
+    }
+
+    .signup-container .form-container {
+        width: 100%;
+        align-self: flex-start;
+        justify-self: flex-start;
+        margin: 0;
+    }
+
+    .signup-container .form-container h1 {
+        font-family: Cousine;
+        font-size: 1.5rem;
+    }
+
+    .signup-container .form-container .input-container {
+        margin: .75rem;
+        width: 90%;
+    }
+
+    /* Style the terms container */
+    .signup-container .form-container > label {
+        width: 90%;
+    }
+    
+    .create-account-button {
+        width: 90%;
+    }
+
+    .mobile-install-prompt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

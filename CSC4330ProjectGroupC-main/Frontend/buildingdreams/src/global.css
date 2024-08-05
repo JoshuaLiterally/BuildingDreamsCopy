@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --building-dreams-red: #CC3009;
+}
+
+body {
+    width: 100dvw;
+    margin: 0;
+    background-color: #FFF7F5;
+    color: black;
+    overflow-x: hidden;
+}
+
+button {
+    border: none;
+}
+
+input {
+    border: none;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}

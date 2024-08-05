@@ -1,0 +1,73 @@
+.dashboard-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+    border-right: 3px var(--building-dreams-red) solid;
+}
+
+.dashboard-sidebar-category-container {
+    height: 80vh;
+    width: 90%;
+    margin-top: 1rem; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1rem; 
+    align-items: center; 
+    overflow-y: scroll;
+}
+
+.categories {
+    color: black;
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.categories h3 {
+    color: black;
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.categories h3:hover {
+    color: var(--building-dreams-red);
+}
+
+/* Styling the scrollbar in Firefox  */
+.dashboard-sidebar-category-container {   
+    scrollbar-color: var(--building-dreams-red) transparent;
+    scrollbar-width: thin;
+}
+
+.dashboard-sidebar-category-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Add this line */
+}
+
+.dashboard-sidebar-category-container h1 {
+    color: black;
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+  
+/* Styling the scrollbar in Chrome and Safari */
+.dashboard-sidebar-category-container::-webkit-scrollbar {
+    width: 10px;
+}
+  
+.dashboard-sidebar-category-container::-webkit-scrollbar-thumb {
+    background-color: var(--building-dreams-red); /* Set thumb color for Chrome and Safari */
+}
+  
+.dashboard-sidebar-category-container::-webkit-scrollbar-track {
+    background-color: transparent; /* Set track color for Chrome and Safari */
+}

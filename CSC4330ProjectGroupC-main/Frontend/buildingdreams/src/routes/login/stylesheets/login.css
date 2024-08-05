@@ -1,0 +1,148 @@
+.login-container {
+    width: 100vw; 
+    height: 100vh;
+    display: flex; 
+    flex-direction: row;
+    background-image: url('/background.png');
+    background-size: cover;
+}
+
+.login-container .form-container {
+    width: 60%;
+    display: flex; 
+    flex-direction: column; 
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px auto;
+    padding: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.login-container .logo {
+    color: var(--building-dreams-red);
+    font-family: Cousine;
+    font-weight: 700;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.login-container .logo:visited {
+    text-decoration: none;
+}
+
+.login-container .form-container .header-text {
+    font-family: Cousine;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+/* CSS for the input + label container */
+.login-container .form-container .input-container {
+    margin: 2rem;
+    width: 45%;
+}
+
+/* CSS for the label */
+.login-container .form-container .input-container label {
+    display: block;
+    font-family: Cousine;
+}
+
+/* CSS for the text input */
+.login-container .form-container .input-container input[type="text"] {
+    width: 92.5%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204); /* Add a transparent bottom border */
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    font-family: Cousine;
+}
+
+.login-container .form-container .input-container input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px solid var(--building-dreams-red); /* Change the bottom border color on focus */
+}
+
+/* CSS for the text input */
+.login-container .form-container .input-container input[type="password"] {
+    width: 92.5%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204); /* Add a transparent bottom border */
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    font-family: Cousine;
+}
+
+.login-container .form-container .input-container input[type="password"]:focus {
+    outline: none;
+    border-bottom: 2px solid var(--building-dreams-red); /* Change the bottom border color on focus */
+}
+
+/* Style the hyperlinks within the agreement */
+.login-container .form-container > label a {
+    color: var(--building-dreams-red);
+}
+
+.create-account-button {
+    background-color: var(--building-dreams-red);
+    color: #fff;
+    border: none;
+    border-radius: 0; /* Remove border radius */
+    padding: 15px 20px;
+    cursor: pointer;
+    font-family: Cousine;
+    font-size: 1.125rem;
+    margin: 1rem;
+    width: 50%;
+}
+
+.create-account-button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+@media only screen and (max-width: 780px) {  
+
+    .login-container {
+        height: auto;
+    }
+
+    .login-container .form-container {
+        width: 100%;
+    }
+
+    .login-container .form-container h1 {
+        font-family: Cousine;
+        font-size: 1.5rem;
+    }
+
+    .login-container .form-container .input-container {
+        margin: .75rem;
+        width: 90%;
+    }
+
+    /* Style the terms container */
+    .login-container .form-container > label {
+        width: 90%;
+    }
+    
+    .create-account-button {
+        width: 90%;
+    }
+
+    .mobile-install-prompt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

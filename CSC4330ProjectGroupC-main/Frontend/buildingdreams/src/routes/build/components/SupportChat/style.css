@@ -1,0 +1,99 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    width: 300px;
+    height: 400px;
+    border: 3px solid var(--building-dreams-red);
+    overflow: hidden;
+    font-family: Cousine;
+    background-color: white;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    height: 320px;
+    overflow: scroll;
+    overflow-x: hidden;
+    gap: .5rem;
+}
+
+.user-message {
+    align-self: flex-end;
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    color: white;
+    width: fit-content;
+    background-color: var(--building-dreams-red);
+    padding: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-right: .25rem;
+}
+
+.admin-message {
+    align-self: flex-start;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    color: white;
+    width: fit-content;
+    background-color: orange;
+    padding: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: .25rem;
+}
+
+.chat-input-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+.chat-input-container input {
+    font-family: Cousine;
+    height: 1rem;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-bottom: 3px var(--building-dreams-red) solid;
+}
+
+.chat-input-container input::placeholder {
+    font-family: Cousine;
+    font-size: .75rem;
+}
+    
+.sendButton {
+    font-family: Cousine;
+    padding: .575rem;
+    color: white;
+    background-color: var(--building-dreams-red);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-bottom: 3px var(--building-dreams-red) solid;
+}
+
+.sendButton:hover {
+    background-color: rgb(180, 1, 1); /* Slightly lighten the background color when hovering */
+    transform: scale(1.02); /* Slightly increase the size of the button when hovering */
+}
+
+.sendButton:active {
+    background-color: rgb(140, 1, 1); /* Darken the background color when the button is clicked */
+    transform: scale(0.98); /* Slightly decrease the size of the button when it's clicked */
+}

@@ -1,0 +1,44 @@
+.extra-features {
+    display: flex;
+    flex-direction: row;
+}
+
+.extra-features-header {
+    font-family: Cousine;
+    color: white;
+    font-size: 2.75rem;
+}
+
+.extra-features-subheader {
+    font-size: 1.25rem;
+    font-family: Cousine;
+    color: white;
+}
+
+.extra-features-container {
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+
+@media only screen and (max-width: 900px) {
+    .extra-features {
+        width: 90%;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .extra-features-header {
+        font-family: Cousine;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    .extra-features-subheader {
+        font-size: 1rem;
+        font-family: Cousine;
+        color: white;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}

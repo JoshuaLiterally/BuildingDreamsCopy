@@ -1,0 +1,74 @@
+.specs-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    padding-bottom: 1rem;
+    gap: 1rem;
+    background-color: #FFF7F5;
+}
+
+.specs-name {
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.spec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.specs-part-title {
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    color: #410B02;
+    margin: 0;
+}
+
+.specs-part-value {
+    font-family: "Cousine", monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.specs-checkout {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.checkout-button {
+    color: white;
+    background-color: var(--building-dreams-red);
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    padding: .75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0;
+    border-bottom: 3px white dashed;
+}
+
+.help-button {
+    color: white;
+    background-color: var(--building-dreams-red);
+    padding: .75rem;
+    border-radius: 0;
+    border-bottom: 3px white dashed;  
+}
